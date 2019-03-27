@@ -84,7 +84,7 @@ public class TSAudioDecoder {
     
     func initializeForAudioQueue() {
         fileTypeHint = kAudioFileAAC_ADTSType
-        var inDesc = AudioStreamBasicDescription(mSampleRate: sampleRate, mFormatID: kAudioFormatMPEG4AAC, mFormatFlags: 2, mBytesPerPacket: 0, mFramesPerPacket: 1024, mBytesPerFrame: 0, mChannelsPerFrame: numberOfChannels, mBitsPerChannel: 0, mReserved: 0)
+        var inDesc = AudioStreamBasicDescription(mSampleRate: sampleRate, mFormatID: kAudioFormatMPEG4AAC, mFormatFlags: 0, mBytesPerPacket: 0, mFramesPerPacket: 1024, mBytesPerFrame: 0, mChannelsPerFrame: numberOfChannels, mBitsPerChannel: 0, mReserved: 0)
         var queue: AudioQueueRef? = nil
         
         status = AudioQueueNewOutput(

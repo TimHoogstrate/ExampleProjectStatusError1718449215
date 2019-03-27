@@ -72,6 +72,7 @@ class ViewController: UIViewController {
         do {
             let audioPlayer = try AVAudioPlayer(data: soundData)
             audioPlayer.play()
+            print("Played")
         } catch {
             print(error.localizedDescription)
         }
@@ -83,6 +84,7 @@ class ViewController: UIViewController {
         do {
             let audioPlayer = try AVAudioPlayer(data: soundData)
             audioPlayer.play()
+            print("Played")
         } catch {
             print(error.localizedDescription)
         }
@@ -94,6 +96,7 @@ class ViewController: UIViewController {
         do {
             let audioPlayer = try AVAudioPlayer(data: soundData)
             audioPlayer.play()
+            print("Played")
         } catch {
             print(error.localizedDescription)
         }
@@ -105,6 +108,7 @@ class ViewController: UIViewController {
         do {
             let audioPlayer = try AVAudioPlayer(data: soundData)
             audioPlayer.play()
+            print("Played")
         } catch {
             print(error.localizedDescription)
         }
@@ -116,6 +120,7 @@ class ViewController: UIViewController {
         do {
             let audioPlayer = try AVAudioPlayer(data: soundData)
             audioPlayer.play()
+            print("Played")
         } catch {
             print(error.localizedDescription)
         }
@@ -127,6 +132,7 @@ class ViewController: UIViewController {
         do {
             let audioPlayer = try AVAudioPlayer(data: soundData)
             audioPlayer.play()
+            print("Played")
         } catch {
             print(error.localizedDescription)
         }
